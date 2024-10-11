@@ -66,7 +66,7 @@ jupyter notebook notebooks/Main.ipynb
 This visualization shows the balanced dataset after applying SMOTE, which is critical for handling class imbalance in fraud detection.
 
 ### Class Distribution
-![Class Distribution](link_to_image_4.png)
+![Class Distribution](https://github.com/BalaElangovan/Enhancing-Credit-Card-Fraud-Detection-Models-using-Machine-Learning-and-PCA/blob/main/charts/4.png)
 
 The dataset was heavily imbalanced, with fraudulent transactions being a minority. The Synthetic Minority Over-sampling Technique (SMOTE) was used to balance the dataset, as shown above.
 
@@ -74,7 +74,7 @@ The dataset was heavily imbalanced, with fraudulent transactions being a minorit
 This plot shows the distribution of transaction amounts, which is important for understanding the nature of the dataset.
 
 ### Transaction Amount Distribution
-![Transaction Amount Distribution](link_to_image_5.png)
+![Transaction Amount Distribution](https://github.com/BalaElangovan/Enhancing-Credit-Card-Fraud-Detection-Models-using-Machine-Learning-and-PCA/blob/main/charts/5.png)
 
 The dataset contains a wide range of transaction amounts, and this feature plays a key role in identifying patterns that may indicate fraudulent activity.
 
@@ -82,7 +82,7 @@ The dataset contains a wide range of transaction amounts, and this feature plays
 This heatmap highlights the correlation between features, helping to visualize how different variables relate to one another.
 
 ### Correlation Heatmap
-![Correlation Heatmap](link_to_image_6.png)
+![Correlation Heatmap](https://github.com/BalaElangovan/Enhancing-Credit-Card-Fraud-Detection-Models-using-Machine-Learning-and-PCA/blob/main/charts/6.png)
 
 Principal Component Analysis (PCA) was applied to reduce dimensionality, focusing on the most relevant features as shown in the correlation heatmap.
 
@@ -90,7 +90,7 @@ Principal Component Analysis (PCA) was applied to reduce dimensionality, focusin
 ROC curves for different models (Logistic Regression, Random Forest, and Neural Network) demonstrate the model's ability to classify transactions correctly.
 
 ### ROC Curve
-![ROC Curve](link_to_image_10.png)
+![ROC Curve](https://github.com/BalaElangovan/Enhancing-Credit-Card-Fraud-Detection-Models-using-Machine-Learning-and-PCA/blob/main/charts/10.png)
 
 The models' ROC curves show the performance of Logistic Regression, Random Forest, and Neural Networks. Both Random Forest and Neural Networks achieved perfect classification (AUC-ROC = 1.00).
 
@@ -99,13 +99,10 @@ Confusion matrices show the classification performance for each model, providing
 
 ### Confusion Matrix
 - **Logistic Regression**
-![Confusion Matrix - Logistic Regression](link_to_image_11.png)
+![Confusion Matrix - Logistic Regression](https://github.com/BalaElangovan/Enhancing-Credit-Card-Fraud-Detection-Models-using-Machine-Learning-and-PCA/blob/main/charts/11.png)
 
 - **Random Forest**
-![Confusion Matrix - Random Forest](link_to_image_12.png)
-
-- **Neural Network**
-![Confusion Matrix - Neural Network](link_to_image_13.png)
+![Confusion Matrix - Random Forest](https://github.com/BalaElangovan/Enhancing-Credit-Card-Fraud-Detection-Models-using-Machine-Learning-and-PCA/blob/main/charts/12.png)
 
 The confusion matrices above display the true positive, false positive, true negative, and false negative results for each model.
 By incorporating these visualizations, you make it easier for readers to understand the impact of your preprocessing steps and the performance of your models.
