@@ -14,26 +14,9 @@ Credit card fraud detection is a critical issue for financial institutions as fr
 
 This project demonstrates the importance of handling class imbalance and dimensionality reduction for robust fraud detection systems.
 
-## Project Structure
-The project is organized as follows:
-
-```bash
-Credit_Card_Fraud_Detection/
-├── README.md
-├── data/
-│   └── raw_data.csv (data source with appropriate links/instructions)
-├── notebooks/
-│   └── Main.ipynb
-│   └── Model_Evaluation.ipynb
-│   └── PCA_Analysis.ipynb
-├── src/
-│   └── model.py (core logic for model building)
-├── requirements.txt
-└── LICENSE
-```
 
 ## Dataset
-The dataset used for this project is sourced from Kaggle's Credit Card Fraud Detection dataset. It contains anonymized transaction data from European cardholders and includes 284,807 transactions, of which 492 are fraudulent. The dataset is heavily imbalanced, which is addressed using SMOTE.
+The dataset used for this project is sourced from Kaggle's Credit Card Fraud Detection dataset (Link - https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud ). It contains anonymized transaction data from European cardholders and includes 284,807 transactions, of which 492 are fraudulent. The dataset is heavily imbalanced, which is addressed using SMOTE.
 
 ## Installation
 
